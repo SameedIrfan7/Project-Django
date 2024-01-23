@@ -39,12 +39,12 @@ To run this portfolio locally, follow these steps:
 4. Open your browser and navigate to http://localhost:3000 to view the portfolio.
 
 
-##Contact
+## Contact
 Feel free to reach out to me! You can use the contact form on the portfolio or connect with me through the following:
 
-Email: sameedirfan7@gmail.com
-LinkedIn: https://www.linkedin.com/in/sameed-irfan-7b767622b/
-GitHub: [SameedIrfan7](https://github.com/SameedIrfan7)
+Email: sameedirfan7@gmail.com<br>
+LinkedIn: https://www.linkedin.com/in/sameed-irfan-7b767622b/ <br>
+GitHub: [SameedIrfan7](https://github.com/SameedIrfan7) <br>
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
