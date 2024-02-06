@@ -1,11 +1,3 @@
-/**
-* Template Name: Kelly
-* Updated: Jan 09 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -15,12 +7,12 @@ body {
 }
 
 a {
-  color: #34b7a7;
+  color: #1cb7b5; /* Updated color to a vibrant teal */
   text-decoration: none;
 }
 
 a:hover {
-  color: #51cdbe;
+  color: #34d5d3; /* Hover color */
   text-decoration: none;
 }
 
@@ -62,9 +54,8 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #34b7a7;
+  border: 6px solid #1cb7b5; /* Updated color to a vibrant teal */
   border-top-color: #dcf5f2;
-  border-radius: 50%;
   width: 60px;
   height: 60px;
   animation: animate-preloader 1s linear infinite;
@@ -90,7 +81,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #34b7a7;
+  background: #1cb7b5;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -104,7 +95,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #49cbbb;
+  background: #34d5d3; /* Hover color */
   color: #fff;
 }
 
@@ -117,7 +108,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #e9e8e6;
+  background: #1cb7b5; /* Updated color to a vibrant teal */
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
   padding: 15px 0;
@@ -541,7 +532,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg-1.jpg") fixed center center;
+  background: linear-gradient(rgba(28, 183, 181, 0.6), rgba(28, 213, 211, 0.6)), url("../img/bg-1.jpg") fixed center ;
   background-size: cover;
   padding: 80px 0;
 }
@@ -973,7 +964,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #34b7a7;
+  background: #1cb7b5; /* Updated color to a vibrant teal */
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -985,12 +976,12 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(34, 34, 34, 0.6);
+  background: rgba(28, 28, 28, 0.6);
 }
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(34, 34, 34, 0.6);
+  background: rgba(28, 28, 28, 0.6);
   position: absolute;
   left: 0;
   right: 0;
@@ -1054,7 +1045,7 @@ section {
 }
 
 .portfolio .portfolio-wrap:hover::before {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .portfolio .portfolio-wrap:hover img {
@@ -1140,11 +1131,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #34b7a7;
+  background: #1cb7b5; /* Updated color to a vibrant teal */
+  color: #fff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #effbf9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1175,7 +1166,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #34b7a7;
+  background: #34d5d3; /* Hover color */
   color: #fff;
 }
 
@@ -1246,16 +1237,16 @@ section {
 }
 
 .contact .email-form button[type=submit] {
-  background: #34b7a7;
-  border: 0;
   padding: 10px 30px 12px 30px;
   color: #fff;
+  background: #1cb7b5; /* Updated color to a vibrant teal */
+  border: 0;
   transition: 0.4s;
   border-radius: 50px;
 }
 
 .contact .email-form button[type=submit]:hover {
-  background: #3dc8b7;
+  background: #34d5d3;
 }
 
 @keyframes animate-loading {
@@ -1272,7 +1263,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #e9e8e6;
+  background: #1cb7b5;
   padding: 30px 0;
   color: #222222;
   font-size: 14px;
